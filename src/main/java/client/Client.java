@@ -21,7 +21,7 @@ public class Client {
 
     public static void main(String[] args) {
 
-        for (int i = 0; i < 130; i++) {
+        for (int i = 0; i < 100; i++) {
             final int n = i;
             Thread thread = new Thread(new Runnable() {
                 @Override
